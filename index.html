@@ -9,11 +9,13 @@
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
 </head>
 <body>
+    <!-- main container -->
     <section>
         <div class="top-bottom"></div>
         <header>
             <h1>CrystalsCollector!</h1>
         </header>
+        <!-- all contents are in this table -->
         <table width="500">
             <tr>
                 <td colspan="2">
@@ -31,7 +33,7 @@
                     <p><span id="random-no-select">0</span></p>
                 </td>
                 <td id="score-board" width="250">
-                    <p id="Note">You Win!!</p>
+                    <p id="Note"></p> <!-- You Win / You Lose comment goes here-->
                     <p id="win">Wins: <span id="WinN">0</span></p>
                     <p id="lose">Loses: <span id="LoseN">0</span></p>
                 </td>
@@ -57,6 +59,9 @@
         </table>
         <div class="top-bottom"></div>
     </section>
+
+    <!-- javascript -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="assets/javascript/game.js"></script>
 </body>
 </html>
