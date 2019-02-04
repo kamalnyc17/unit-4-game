@@ -33,7 +33,7 @@ td {
     padding: 5px 10px;
 }
 .mid-row {
-    border: 2px solid black;
+    border-top: 2px solid black;
 }
 /* paragraph & table column styles */
 p {
@@ -59,6 +59,7 @@ p {
 #win,
 #winN,
 #lose,
-#loseN {    
+#loseN,
+#Note {    
     font-size: 24px;
 }
