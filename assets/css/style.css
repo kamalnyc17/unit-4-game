@@ -1,0 +1,53 @@
+body {    
+    max-width: 768px;
+    margin: auto;
+    background-size: contain;
+    border: 1px solid #dddddd;
+    font-family: 'Times New Roman', Times, serif;
+}
+section {
+    background-image: url( "../images/Background 1.jpg" );
+}
+img {
+    height: 100px;
+    width: 100px;
+}
+h1 {
+    font-size: 34px;
+    line-height: 48px;
+    font-weight: 600;
+    margin-left: 134px;
+    color: white;
+    padding-bottom: 10px;
+}
+.top-bottom {
+    height: 20px;
+}
+table{   
+    background-color: white;
+    margin: auto;
+}
+td {
+    padding: 5px 10px;
+}
+.mid-row {
+    border: 2px solid black;
+}
+p {
+    font-size: 18px;
+    line-height: 24px;
+}
+#score-head,
+#current-score {
+    background-color: green;
+    color: white;
+    font-size: 24px;
+}
+#current-score {
+    line-height: 64px;
+}
+#random-no,
+#score-board {
+    background-color: aqua;
+    font-size: 24px;
+}
