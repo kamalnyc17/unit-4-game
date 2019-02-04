@@ -1,3 +1,4 @@
+/* high level style */
 body {    
     max-width: 768px;
     margin: auto;
@@ -8,9 +9,8 @@ body {
 section {
     background-image: url( "../images/Background 1.jpg" );
 }
-img {
-    height: 100px;
-    width: 100px;
+.top-bottom {
+    height: 20px;
 }
 h1 {
     font-size: 34px;
@@ -20,9 +20,11 @@ h1 {
     color: white;
     padding-bottom: 10px;
 }
-.top-bottom {
-    height: 20px;
+img {
+    height: 100px;
+    width: 100px;
 }
+/* table style */
 table{   
     background-color: white;
     margin: auto;
@@ -33,9 +35,11 @@ td {
 .mid-row {
     border: 2px solid black;
 }
+/* paragraph & table column styles */
 p {
     font-size: 18px;
     line-height: 24px;
+    text-align: justify;
 }
 #score-head,
 #current-score {
@@ -49,5 +53,11 @@ p {
 #random-no,
 #score-board {
     background-color: aqua;
+}
+#random-no-select,
+#win,
+#winN,
+#lose,
+#loseN {    
     font-size: 24px;
 }
