@@ -55,6 +55,7 @@ p {
 #score-board {
     background-color: aqua;
 }
+/* generic font-size for score board related elements */
 #random-no-select,
 #win,
 #winN,
