@@ -1,3 +1,4 @@
+// global variables are declared here
 var minT = 19;
 var maxT = 120;
 var maxG = 1;
