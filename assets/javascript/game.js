@@ -10,14 +10,14 @@ var totalWin = 0;
 var totalLose = 0;
 var myCount = 0;
 
-/* uploading image files in an array */
+/* uploading paths of the image files in an array */
 var gemImage = [4];
 gemImage[0] = "assets/images/crystal 1.jpg";
 gemImage[1] = "assets/images/crystal 2.jpg";
 gemImage[2] = "assets/images/crystal 3.jpg";
 gemImage[3] = "assets/images/crystal 4.jpg";
 
-/* function to reset screen */
+/* global function to reset screen */
 var resetScreen = function() {
     userTotal = 0;
     $("#crystals").empty();
@@ -38,7 +38,6 @@ var resetScreen = function() {
         imageCrystal.attr("data-crystalvalue", gemNo[i]);
 
         $("#crystals").append(imageCrystal);
-        console.log( "initial gem value: " + imageCrystal.attr("data-crystalvalue"));
     }
 
     processData();
@@ -79,7 +78,7 @@ var processData = function() {
     });
 }
 
-/* script will execute after the DOM is loaded */    
+/* script will start after the DOM is loaded */    
 $(document).ready(function() {
     resetScreen();
 })
