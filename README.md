@@ -7,5 +7,4 @@ in the "Your total score" section
 4. If the user's score is === the number genarated in #1, the user wins. If the user's score is more that #1 the user will lose.
 5. After each win or lose, the script will display a message indicating win or lose, and update the score board to show number wins and loses
 6. The game will restart, without reloading the page and genarate new set of random numbers
-
-Contact me at kamalnyc17@gmail.com with any question
+7. Link to the deployed project: https://kamalnyc17.github.io/unit-4-game/
